@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomFilledCircle">
+
+        <attr name="showNumber" format="boolean"/>
+        <attr name="colorFill" format="color"/>
+        <attr name="colorStroke" format="color"/>
+        <attr name="numberFillRange" format="integer"/>
+
+    </declare-styleable>
+
+</resources>
+    <!--Once you define the custom attributes, you can use them in layout XML files just like built-in attributes.-->
+    <!--The only difference is that your custom attributes belong to a different namespace.-->
+    <!--Instead of belonging to the http://schemas.android.com/apk/res/android namespace,-->
+    <!--they belong to http://schemas.android.com/apk/res/[your package name].-->
+    <!--For example, here's how to use the attributes defined for PieChart:-->
+    <!--... xmlns:custom="http://schemas.andro <com.example.customviews.charting.PieChart-->
+    <!--<com.example.customviews.charting.PieChart-->
+    <!--custom:showText="true"/>-->
